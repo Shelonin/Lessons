@@ -1,0 +1,170 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+
+.xa-xa{
+    background-color: #850AE5;
+    color: white;
+    position:fixed;
+    width:100px;
+    height:350px;
+    top:200px;
+    right:0px;
+    padding-left: 30px;
+    border-radius:15px;
+}
+
+.post{
+    position:relative;
+}
+
+.rt{
+    position: absolute;
+    top:30px;
+    right:40px;
+}
+
+h1::before{
+    display: inline-block;
+    content:"";
+    width: 25px;
+    height: 25px;
+    background-color: #FF0000;
+    transform: rotate(-45deg);
+    margin-right:10px;
+}
+
+h1::after{
+    display: inline-block;
+    content:"";
+    width: 25px;
+    height: 25px;
+    background-color: #FF0000;
+    transform: rotate(-45deg);
+    margin-left:10px;
+}
+
+.address::before{
+    content: url("https://www.linux.kg/img/home.png")
+}
+
+.tel::before{
+    content: url("https://helppos.ru/modules/psframework/img/call_head40.png")
+}
+
+.nav-link:hover{
+    color: #850AE5;
+    text-decoration:overline;
+}
+
+.article-but:hover{
+    text-decoration:underline;
+    background-color:#850AE5;
+    font-size:38px;
+    margin:10px 25px 10px 25px;
+}
+
+.xa-xa:hover{
+    width:200px;
+    height:300px;
+    background-color:#36bbce;
+    color:black;
+}
